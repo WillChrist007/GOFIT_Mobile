@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".IjinAddActivity">
+
+    <EditText
+        android:id="@+id/editTextIdPengganti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Pengganti"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextIdJadwalHarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextIdPengganti"
+        android:hint="ID Jadwal Harian"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextKeterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextIdJadwalHarian"
+        android:hint="Keterangan" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextKeterangan"
+        android:text="Submit" />
+
+</RelativeLayout>

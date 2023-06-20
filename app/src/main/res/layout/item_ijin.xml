@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewIdInstruktur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Instruktur" />
+
+    <TextView
+        android:id="@+id/textViewIdPengganti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Pengganti" />
+
+    <TextView
+        android:id="@+id/textViewTanggalPengajuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pengajuan" />
+
+    <TextView
+        android:id="@+id/textViewTanggalIjin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Ijin" />
+
+    <TextView
+        android:id="@+id/textViewTanggalKonfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Konfirmasi" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+
+    <TextView
+        android:id="@+id/textViewKeterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keterangan" />
+
+</LinearLayout>

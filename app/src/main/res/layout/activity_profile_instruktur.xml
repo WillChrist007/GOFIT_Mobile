@@ -1,0 +1,152 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Profile Instrukur"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/idLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Id Instrukur"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/idEditText"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter id"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/emailLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/nameLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/birthDateLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birth Date"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/birthDateEditText"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter birth date"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/phoneLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter phone"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/addressLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter address"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/jumlahTerlambatLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Keterlambatan (detik)"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/jumlahTerlambatEditText"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter jumlah terlambat"
+            android:inputType="textPostalAddress" />
+
+        <Button
+            android:id="@+id/buttonHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History Aktivitas" />
+
+    </LinearLayout>
+</ScrollView>
